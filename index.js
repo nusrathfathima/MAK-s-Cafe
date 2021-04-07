@@ -21,4 +21,6 @@ $(document).ready(function(){
     slideWidth: 500
   });
 
+  AOS.init();
 });
+

@@ -121,7 +121,7 @@ p {
   text-align: center;
 }
 main {
-  background-image: url("./MAKCafe_images/Beef-Sheekh-Kabab.jpg");
+  /* background-image: url("./MAKCafe_images/Beef-Sheekh-Kabab.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -135,4 +135,13 @@ main a {
   margin-top: 20px;
 }
 
+/* AOS Styling */
+
+.content {
+  padding: 3% 0;
+}
+
+.card-img-top {
+  background-image: url(./MAKCafe_images/mutton-biryani-500x500.jpg);
+}
 
