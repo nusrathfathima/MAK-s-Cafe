@@ -49,7 +49,7 @@ nav.menu ul li {
   margin: 0;
   padding: 0;
   list-style: none;
-  float: right;
+  float: left;
   padding-right: 30px;
 }
 
@@ -80,6 +80,7 @@ h2 {
   display: flex;
   justify-content: center;
   margin-top: 0%;
+  margin-left: 500px;
   padding-top: 20px;
   color: bisque;
 }
@@ -156,17 +157,21 @@ h2 {
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
 }
 
 .box {
   height: 60px;
+
 }
 
 .search-area {
   position: relative;
+  float:right;
+  margin-left: 500px;
+  /* padding: 0; */
 }
 
 .search-area input[type=text]{
@@ -186,6 +191,7 @@ h2 {
   right: 0;
   color: #fff;
   transition: all 0.5s 0.3s ease;
+  margin-left: 50px;
 }
 
 .icon i {
