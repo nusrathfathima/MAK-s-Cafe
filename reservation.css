@@ -1,0 +1,55 @@
+.heading {
+  text-align: left;
+  color: aliceblue;
+  padding: 100px;
+  margin: 0%;
+}
+
+h1 {
+  background-image: url('./MAKCafe images/Background.jpg');
+  background-position: center;
+  font-size: 35px;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif ;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.8em;
+}
+
+nav.menu {
+  width: 100%;
+  background-color:#f47a60;
+  height: 44px;
+}
+nav.menu ul,
+nav.menu ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+  padding-right: 30px;
+}
+
+nav.menu ul li a {
+  padding: 0 20px;
+  line-height: 44px;
+  font-size: 1.4em;
+  text-decoration: none;
+  color:aliceblue
+}
+
+.bottom {
+  height: 20px;
+  color: white;
+  background-image: url('./MAKCafe images/Background.jpg');
+  background-position: center;
+  padding: 30px;
+  bottom: 0;
+}
+.center {
+  text-align: center;
+  font-size: smaller;
+}

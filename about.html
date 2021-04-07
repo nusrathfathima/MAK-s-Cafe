@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Following element head has related CSS and JavaScript files -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About" />
+    <title>About</title>
+
+    <!-- This html has related CSS stored in about.css -->
+    <link rel="stylesheet" href="about.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" integrity="sha512-jNDtFf7qgU0eH/+Z42FG4fw3w7DM/9zbgNPe3wfJlCylVDTT3IgKW5r92Vy9IHa6U50vyMz5gRByIu4YIXFtaQ==" crossorigin="anonymous"></script>    <script src="about.js"></script>
+
+</head>
+
+<!-- Body contains header main and footer elements -->
+
+<body>
+    <!-- header consists of website heading and navigation bar. This is similar in all pages -->
+    <header>
+        <h1 class="heading">MAK's Cafe</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- The main consists of details and images about the website's restaurant divided in each article -->
+    <main>
+
+        <!-- This article consists of about the restaurant details -->
+        <article class="about">
+            <div>
+                <img class="lazyload" src="./MAKCafe_images/About_us.jpg" alt="about1.jpg" width="500" />
+            </div>
+            <div> 
+                <h2>About Us</h2>
+
+                MAK's Cafe is an Indian fast food restaurant in Charlotte, NC.
+                Established in 2021, MAK's Cafe has been serving a wide variety of
+                Indian street cuisines with a modern twist. We keep it simple: to
+                offer the great tasting street food in a great ambiance, with a smile.
+                We are a casual restaurant, where we value your time and your passion
+                for good food. We strive to provide absolutely great taste, in the
+                shortest possible time to accommodate your busy schedule. While you
+                are here, we want you to feel home and enjoy our work of art inside
+                the restaurant.
+            </div>
+        </article>
+
+        <!-- This article consists of restaurant's team details -->
+        <article class="about2">
+            <div>
+                <h2>Our Team</h2>
+                <p>
+                    Our team includes veterans who hail from different regions in SE
+                    Asia, and have worked in many different countries. Our Chefs are
+                    passionate about mixing the rich flavors of Indian Sub-Continent, to
+                    create outstanding dishes. Our service staff have one goal – and
+                    that is to make sure you are 100% satisfied. Together, we work as a
+                    team to provide the best food and service in a casual environment.
+                </p>
+            </div>
+            <div>
+                <img class="lazyload" data-original="./MAKCafe_images/People.jpg" alt="about2.jpg" height="350" width="500" />
+            </div>
+        </article>
+
+        <!-- This article consists of restaurant's food details -->
+        <article class="about">
+            <div>
+                <img class="lazyload" data-original="./MAKCafe_images/maxresdefault.jpg" alt="about3.jpg" width="500" />
+            </div>
+            <div>
+                <h2>Our Food</h2>
+
+                <p>
+                    All-around interest of our team in different geographies has helped
+                    us develop unique flavors and tastes which we will bring to you at
+                    MAK's Cafe. Street food vendors in India have local knowledge of
+                    indigenous herbs and spices which they use artfully to prepare rich
+                    and flavorful dishes. Our team has a deep understanding of the
+                    variety of spices, and we use them wisely to create food that will
+                    leave an impression on your taste buds for a long time. We are
+                    experts in regional delicacy with a combined cooking experience of
+                    over 50 years. Some of our people started cooking at home, and bring
+                    the authentic and original taste to each dish they prepare, while
+                    others are trained chefs that have explored and mastered the skills.
+                    We truly believe in the statement – “You must cook with your heart".
+                    In our Tandoor – our traditional clay oven – we prepare a variety of
+                    hot savory dishes from fluffy naan to tikkas and kababs, and we get
+                    it just right each and every time. When you are playing with
+                    delicate dough and fiery tandoor, the timing is critical and our
+                    team has mastered this critical skill.
+                </p>
+            </div>
+        </article>
+
+        <!-- Final touch up line in the paragraph for the readers -->
+        <p id="visit">
+            <em>
+                <strong>Come visit us to take a tour through the richness of Indian
+                    delicacies!</strong>
+            </em>
+        </p>
+    </main>
+
+    <!-- Footer is consistent through out the website with copy rights -->
+    <footer class="bottom">
+        <div class="center">
+            All rights reserved. &copy; 2021 MAK's Cafe.
+        </div>
+    </footer>
+</body>
+
+</html>

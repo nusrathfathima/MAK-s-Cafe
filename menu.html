@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Following element head has related CSS and JavaScript files -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Menu" />
+    <title>Menu</title>
+    <!-- This html file has related CSS stored in menu.css -->
+
+    <!-- <base href="/"> -->
+    <link rel="stylesheet" type="text/css" href="menu.css" />
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+
+    <script src="menu.js"></script>
+</head>
+
+<!-- Body contains header main and footer elements -->
+
+<body>
+    <!-- header consists of website heading and navigation bar. This is similar in all pages -->
+    <header>
+        <h1 class="heading">MAK's Cafe</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- This main element consists of categorical menu separated in each section with headings -->
+    <main>
+        <h2>Our Menu</h2>
+
+        <!-- This section has information related to appetizers category -->
+        <!-- <div id="accordion"> -->
+        <section id="accordion">
+            <h3 class="menu_head">Appetizers</h3>
+            <!-- <i class="fa fa-angle-down"></i> -->
+            <div class="app" id="panel">
+                <p>
+                    <strong>Chicken Pakoda</strong> --- <em>$7.99</em><br />
+                    <small>Chicken, Chickpea flour, garam masala, garlic, chili powder,
+                        rings</small>
+                </p>
+                <p>
+                    <strong>Chana Chaat</strong> --- <em>$4.99</em><br />
+                    <small>Puffed rice, black chickpeas, yogurt, green chutney</small>
+                </p>
+                <p>
+                    <strong>Vegetable Pakoda</strong> --- <em>$4.99</em><br />
+                    <small>Chickpea flour, garam masala, garlic, chili powder, rings</small>
+                </p>
+                <p>
+                    <strong>Aloo Tikki Chaat</strong> --- <em>$5.99</em><br />
+                    <small>Rice flour, potatoes, green chutney, chaat masala, black
+                        salt</small>
+                </p>
+                <p>
+                    <strong>Paneer Pakoda</strong> --- <em>$7.99</em><br />
+                    <small>Cottage cheese, rice flour, gram flour, kasuri methi, chaat
+                        masala</small>
+                </p>
+                <p>
+                    <strong>Cut Mirchi</strong> --- <em>$4.99</em><br />
+                    <small>Roasted chana dal, fresh green chilies, sesame seeds, gram flour,
+                        curry leaves</small>
+                </p>
+                <p>
+                    <strong>Samosa Chaat</strong> --- <em>$4.99</em><br />
+                    <small>Chickpeas topped with samosa, yogurt and tamarind sauce</small>
+                </p>
+                <p>
+                    <strong>Chicken Samosa</strong> --- <em>$5.99</em><br />
+                    <small>Flaky pastry filled with seasoned minced chicken</small>
+                </p>
+                <p>
+                    <strong>Vegetable Samosa</strong> --- <em>$3.99</em><br />
+                    <small>Flaky pastry filled with seasoned potatoes and peas</small>
+                </p>
+            </div>
+
+
+            <!-- This section has information related to biryani category -->
+            <h3 class="menu_head">Biryani</h3>
+            <div class="app" id="panel">
+                <p>
+                    <strong>Chicken Kheema Biryani</strong> --- <em>$9.99</em><br />
+                    <small>Rice with grounded chicken, flavored with fresh mint and herbs
+                        and cooked to perfection</small>
+                </p>
+                <p>
+                    <strong>Chicken Boneless Biryani</strong> --- <em>$11.99</em><br />
+                    <small>Rice with boneless chicken, flavored with fresh mint and herbs
+                        and cooked to perfection</small>
+                </p>
+                <p>
+                    <strong>Chicken Sindhi Biryani</strong> --- <em>$9.99</em><br />
+                    <small>Rice with stewed chicken, flavored with fresh mint and herbs and
+                        cooked to perfection</small>
+                </p>
+                <p>
+                    <strong>Lamb Kheema Biryani</strong> --- <em>$12.99</em><br />
+                    <small>Grounded Lamb with fresh mint and herbs, layered with rice and
+                        cooked to perfection</small>
+                </p>
+                <p>
+                    <strong>Paneer Biryani</strong> --- <em>$13.99</em><br />
+                    <small>Paneer (Cottage Cheese) flavored with fresh mint and herbs,
+                        layered with rice and cooked to perfection</small>
+                </p>
+                <p>
+                    <strong>Egg Dum Biryani</strong> --- <em>$8.99</em><br />
+                    <small>Eggs with fresh mint and herbs, layered with rice and cooked to
+                        perfection</small>
+                </p>
+                <p>
+                    <strong>Shrimp Biryani</strong> --- <em>$14.99</em><br />
+                    <small>Shrimp with fresh mint and herbs, layered with rice and cooked to
+                        perfection</small>
+                </p>
+                <p>
+                    <strong>Vegetable Biryani</strong> --- <em>$8.99</em><br />
+                    <small>Mixed vegetables flavoured with fresh mint and herbs, layered
+                        with rice and cooked to perfection</small>
+                </p>
+                <p>
+                    <strong>Chicken Dum Biryani</strong> --- <em>$9.99</em><br />
+                    <small>Rice with stewed chicken, flavored with fresh mint and herbs and
+                        cooked to perfection</small>
+                </p>
+                <p>
+                    <strong>Mutton Dum Biryani</strong> --- <em>$9.99</em><br />
+                    <small>Stewed mutton with fresh mint and herbs, layered with rice and
+                        cooked to perfection</small>
+                </p>
+            </div>
+
+            <!-- This section has information related to goat entrees category -->
+
+            <!-- <section> -->
+            <h3 class="menu_head">Goat Entrees</h3>
+            <div class="app" id="panel">
+                <p>
+                    <strong>Goat Khorma Combo</strong> --- <em>$16.99</em><br />
+                    <small>Goat braised in a rich creamy aromatic flavored sauce with
+                        yogurt, ground almond & cashew. Served with choice of 2
+                        sides</small>
+                </p>
+                <p>
+                    <strong>Goat Khorma</strong> --- <em>$13.99</em><br />
+                    <small>Goat braised in a rich creamy aromatic flavored sauce with
+                        yogurt, ground almond & cashew</small>
+                </p>
+                <p>
+                    <strong>Goat Rogan Josh</strong> --- <em>$13.99</em><br />
+                    <small>Goat shoulder, red vinegar, garam masala, hot sauce, garlic,
+                        ginger</small>
+                </p>
+                <p>
+                    <strong>Kadhai Goat</strong> --- <em>$13.99</em><br />
+                    <small>Goat , Yogurt, garam masala, ginger, tomatoes, green
+                        chilies</small>
+                </p>
+                <p>
+                    <strong>Goat Sukkha</strong> --- <em>$14.99</em><br />
+                    <small>Goat , Yogurt, garam masala powder, green chillies, curry leaves,
+                        tomatoes</small>
+                </p>
+                <p>
+                    <strong>Handi Goat</strong> --- <em>$13.99</em><br />
+                    <small>Goat , cream, tomatoes, dry ginger, cinnamon sticks</small>
+                </p>
+                <p>
+                    <strong>Bhuna Goat</strong> --- <em>$13.99</em><br />
+                    <small>Goat Meat (Mutton), dahi, ginger, garlic, black cardamom</small>
+                </p>
+            </div>
+            <!-- </section> -->
+
+            <!-- This section has information related to lamb entrees category -->
+            <!-- <section> -->
+            <h3 class="menu_head">Lamb Entrees</h3>
+            <div class="app" id="panel">
+                <p>
+                    <strong>Lamb Sukka</strong> --- <em>$14.99</em><br />
+                    <small>Lamb, Yogurt, garam masala powder, green, curry leaves,
+                        tomatoes</small>
+                </p>
+                <p>
+                    <strong>Lamb Handi</strong> --- <em>$13.99</em><br />
+                    <small>Lamb, cream, tomatoes, dry ginger, cinnamon sticks</small>
+                </p>
+                <p>
+                    <strong>Lamb Kadhai</strong> --- <em>$13.99</em><br />
+                    <small>Lamb, Yogurt, garam masala, ginger, tomatoes, green
+                        chilies</small>
+                </p>
+                <p>
+                    <strong>Lamb Rogan Josh</strong> --- <em>$13.99</em><br />
+                    <small>Lamb shoulder, red vinegar, garam masala, hot sauce, garlic,
+                        ginger</small>
+                </p>
+                <p>
+                    <strong>Lamb Hyderabadi</strong> --- <em>$13.99</em><br />
+                    <small>Lamb Meat, Garam masala powder, lemon juice, black pepper, ginger
+                        garlic</small>
+                </p>
+                <p>
+                    <strong>Bhuna Gosht</strong> --- <em>$13.99</em><br />
+                    <small>Lamb Meat (Mutton), dahi, ginger, garlic, black cardamom</small>
+                </p>
+                <p>
+                    <strong>Lamb Haleem</strong> --- <em>$14.99</em><br />
+                    <small>Mutton, lentils, and grains slow cooked then garnished with fried
+                        onions, fresh mint, green chilies, and fresh lemon</small>
+                </p>
+                <p>
+                    <strong>Lamb Khorma</strong> --- <em>$13.99</em><br />
+                    <small>Lamb braised in a rich creamy aromatic flavored sauce with
+                        yogurt, ground almond & cashew</small>
+                </p>
+            </div>
+            <!-- </section> -->
+
+            <!-- This section has information related to tandoor/grill category -->
+            <!-- <section> -->
+            <h3 class="menu_head">Tandoor/Grill</h3>
+            <div class="app" id="panel">
+                <p>
+                    <strong>Lamb Sheekh Kebab Combo </strong> --- <em>$14.99</em><br />
+                    <small>Ground lamb marinated with spices. Served with choice of 2
+                        sides</small>
+                </p>
+                <p>
+                    <strong>Paneer Tikka Combo</strong> --- <em>$11.99</em><br />
+                    <small>Grilled chunks of paneer marinated in yogurt and spices. Served
+                        with choice of 2 sides</small>
+                </p>
+                <p>
+                    <strong>Chicken Tandoor Combo</strong> --- <em>$10.99</em><br />
+                    <small>Roasted grilled chicken marinated in yogurt and spices. Served
+                        with choice of 2 sides</small>
+                </p>
+                <p>
+                    <strong>Beef Sheekh Kebab Combo</strong> --- <em>$12.99</em><br />
+                    <small>Ground Beef marinated with Spices. Served with choice of 2
+                        sides</small>
+                </p>
+                <p>
+                    <strong>Chicken Sheekh Kebab Combo</strong> --- <em>$11.99</em><br />
+                    <small>Ground Chicken marinated with Spices. Served with choice of 2
+                        sides</small>
+                </p>
+                <p>
+                    <strong>Chicken Malai Boti Combo</strong> --- <em>$12.99</em><br />
+                    <small>Boneless chicken marinated in sour cream and spices. Served with
+                        choice of 2 side</small>
+                </p>
+                <p>
+                    <strong>Chicken Tikka Boti Combo</strong> --- <em>$12.99</em><br />
+                    <small>Boneless chicken marinated with yogurt and spices. Served with
+                        choice of 2 sides</small>
+                </p>
+            </div>
+            <!-- </section> -->
+
+            <!-- This section has information related to south indian category -->
+            <h3 class="menu_head">South Indian</h3>
+            <div class="app" id="panel">
+                <p>
+                    <strong>Idly</strong> --- <em>$5.99</em><br />
+                    <small>Fermented batter of rice, black gram lentils is steam cooked &
+                        served with chutney & sambar</small>
+                </p>
+                <p>
+                    <strong>Button Idly Sambar</strong> --- <em>$6.99</em><br />
+                    <small>Byte size idly are immersed in sambar and served</small>
+                </p>
+                <p>
+                    <strong>Idly Vada Combo</strong> --- <em>$6.99</em><br />
+                    <small>2 Idly and 1 Vada served with chutney & sambar</small>
+                </p>
+                <p>
+                    <strong>Pongal</strong> --- <em>$6.99</em><br />
+                    <small>Rice mixed with yellow moong lentils laced with cumin,black
+                        pepper and seasoned with ghee, cashew nuts</small>
+                </p>
+                <p>
+                    <strong>Sambar Rice</strong> --- <em>$7.99</em><br />
+                    <small>Rice mixed with soupy lentils mixed with cooked veggies seasoned
+                        in hot oil with mustard & cumin seeds</small>
+                </p>
+                <p>
+                    <strong>Sambar Vada</strong> --- <em>$5.99</em><br />
+                    <small>Vada(fried lentil fritters) dipped in spiced soupy lentils</small>
+                </p>
+                <p>
+                    <strong>Medu Vada</strong> --- <em>$5.99</em><br />
+                    <small>Deep fried fritters made from batter of black gram lentils mixed
+                        with cumin, peppercorns served with chutney & sambar</small>
+                </p>
+                <p>
+                    <strong>Puri Bhaji</strong> --- <em>$7.99</em><br />
+                    <small>Poori is a puffed up, flaky deep fried Indian bread served with
+                        mildly-spiced potato stir-fry</small>
+                </p>
+                <p>
+                    <strong>Chole Puri</strong> --- <em>$6.99</em><br />
+                    <small>Chole(chickpeas) are cooked in gravy of onion, tomato and spices
+                        served with hot fluffy puri</small>
+                </p>
+                <p>
+                    <strong>Plain Dosa</strong> --- <em>$6.99</em><br />
+                    <small>Crepe/pancake roasted on hot pan made from batter of rice, black
+                        gram lentils served with chutney & sambar</small>
+                </p>
+                <p>
+                    <strong>Mysore Masala Dosa</strong> --- <em>$8.99</em><br />
+                    <small>Crepe/pancake roasted on hot pan with spicy masala paste spread &
+                        stuffed with lightly cooked potatoes and onions curry</small>
+                </p>
+                <p>
+                    <strong>Masala Dosa</strong> --- <em>$7.99</em><br />
+                    <small>Crepe/pancake roasted on hot pan stuffed with lightly cooked
+                        potatoes, onion curry & served with chutney & sambar</small>
+                </p>
+                <p>
+                    <strong>Onion Dosa</strong> --- <em>$7.99</em><br />
+                    <small>Crepe/pancake roasted on hot pan stuffed with lightly fried diced
+                        onions served with chutney & sambar
+                    </small>
+                </p>
+                <p>
+                    <strong>Egg Dosa</strong> --- <em>$8.99</em><br />
+                    <small>Crepe/pancake roasted on hot pan stuffed with scrambled egg,
+                        fried diced onions served with chutney & sambar</small>
+                </p>
+            </div>
+
+            <!-- This section has information related to rice and noodles category -->
+            <h3 class="menu_head">Rice Entrees and Noodles</h3>
+            <div class="app" id="panel">
+                <p>
+                    <strong>Veg Hakka Noodles</strong> --- <em>$9.99</em><br />
+                    <small>Hakka Noodles, vegetables, soy sauce, toasted sesame oil, red
+                        bell pepper</small>
+                </p>
+                <p>
+                    <strong>Triple Schezwan Veg Fried Rice</strong> --- <em>$10.99</em><br />
+                    <small>Basmati rice, vegetables, Schezwan sauce, toasted sesame oil, red
+                        bell pepper</small>
+                </p>
+                <p>
+                    <strong>Veg Fried Rice</strong> --- <em>$9.99</em><br />
+                    <small>Basmati rice, soy sauce, toasted sesame oil, red bell
+                        pepper</small>
+                </p>
+                <p>
+                    <strong>Shrimp Noodles</strong> --- <em>$13.99</em><br />
+                    <small>Shrimps, Hakka Noodles, cabbage, Manchurian Sauce</small>
+                </p>
+                <p>
+                    <strong>Shrimp Fried Rice</strong> --- <em>$12.99</em><br />
+                    <small>Shrimps, Manchurian sauce, basmati rice, cabbage</small>
+                </p>
+                <p>
+                    <strong>Lamb Fried Rice</strong> --- <em>$14.99</em><br />
+                    <small>Lamb, Manchurian sauce, basmati rice, cabbage</small>
+                </p>
+                <p>
+                    <strong>Chicken Manchurian Fried Rice</strong> --- <em>$12.99</em><br />
+                    <small>Chicken, Manchurian sauce, basmati rice, cabbage</small>
+                </p>
+                <p>
+                    <strong>Chicken Fried Rice</strong> --- <em>$11.99</em><br />
+                    <small>Chicken, Schezwan sauce, basmati rice, cabbage</small>
+                </p>
+                <p>
+                    <strong>Mixed Noodles</strong> --- <em>$14.99</em><br />
+                    <small>Chicken, Hakka Noodles, Schezwan sauce, basmati rice,
+                        cabbage</small>
+                </p>
+                <p>
+                    <strong>Mixed Fried Rice</strong> --- <em>$14.99</em><br />
+                    <small>Chicken, Schezwan sauce, basmati rice, cabbage</small>
+                </p>
+                <p>
+                    <strong>Triple Schezwan Chicken Fried Rice</strong> ---
+                    <em>$13.99</em><br />
+                    <small>Hakka noodles, schezwan sauce, basmati rice, cabbage</small>
+                </p>
+                <p>
+                    <strong>Chicken Schezwan</strong> --- <em>$12.99</em><br />
+                    <small>White corn flour, sesame oil, egg white, rice vinegar,
+                        ginger</small>
+                </p>
+                <p>
+                    <strong>Chicken Schezwan Noodles</strong> --- <em>$12.99</em><br />
+                    <small>Schezwan noodles, soy sauce, chicken breasts, green bell</small>
+                </p>
+                <p>
+                    <strong>Chicken Hakka Noodles</strong> --- <em>$11.99</em><br />
+                    <small>Hakka noodles, soy sauce, chicken breasts, green bell
+                    </small>
+                </p>
+            </div>
+
+            <!-- This section has information related to vegetarian entrees category -->
+            <h3 class="menu_head">Vegetarian Entrees</h3>
+            <div class="app" id="panel">
+                <p>
+                    <strong>Paneer Chili</strong> --- <em>$9.99</em><br />
+                    <small>Paneer(Cottage Cheese), chili sauce, corn flour, green bell
+                        pepper, red bell</small>
+                </p>
+                <p>
+                    <strong>Gobi 65</strong> --- <em>$9.99</em><br />
+                    <small>Gobi, chili sauce, corn flour, green bell pepper, red bell</small>
+                </p>
+                <p>
+                    <strong>Paneer 65</strong> --- <em>$10.99</em><br />
+                    <small>Paneer (Cottage Cheese), chili sauce, corn flour, green bell
+                        pepper, red bell</small>
+                </p>
+                <p>
+                    <strong>Veg Manchurian</strong> --- <em>$9.99</em><br />
+                    <small>Mixed Vegetables, chili sauce, corn flour, green bell pepper, red
+                        bell</small>
+                </p>
+                <p>
+                    <strong>Gobi Manchurian</strong> --- <em>$9.99</em><br />
+                    <small>Gobi, chili sauce, corn flour, green bell pepper, red bell
+                    </small>
+                </p>
+                <p>
+                    <strong>Chana Masala</strong> --- <em>$9.99</em><br />
+                    <small>Chick Peas, Garam masala, kasuri methi, cinnamon, green chili,
+                        chili</small>
+                </p>
+                <p>
+                    <strong>Mixed Vegetable</strong> --- <em>$9.99</em><br />
+                    <small>Red potatoes, zucchini, red bell pepper, carrots, olive
+                        oil</small>
+                </p>
+                <p>
+                    <strong>Veg Kadhai</strong> --- <em>$9.99</em><br />
+                    <small>Bell peppers, potatoes, green peas, low fat, bell pepper</small>
+                </p>
+                <p>
+                    <strong>Mutter Paneer</strong> --- <em>$9.99</em><br />
+                    <small>Cottage cheese, green peas, cream, garam masala, ginger</small>
+                </p>
+                <p>
+                    <strong>Bhendi (Okra) Masala</strong> --- <em>$8.99</em><br />
+                    <small>Bhendi(Okra), garam masala powder, kasuri methi, chili
+                    </small>
+                </p>
+                <p>
+                    <strong>Aloo Palak</strong> --- <em>$9.99</em><br />
+                    <small>Potatoes, lemon, garam masala, red onion, avocado oil</small>
+                </p>
+                <p>
+                    <strong>Dal Tadka</strong> --- <em>$7.99</em><br />
+                    <small>Masoor dal, charcoal, cream, garam masala powder, ginger</small>
+                </p>
+                <p>
+                    <strong>Palak Paneer</strong> --- <em>$11.99</em><br />
+                    <small>Paneer, spinach, heavy cream, garam masala, ginger</small>
+                </p>
+                <p>
+                    <strong>Paneer Tikka Masala</strong> --- <em>$10.99</em><br />
+                    <small>Paneer, greek yogurt, tandoori masala, cream, bell pepper</small>
+                </p>
+                <p>
+                    <strong>Paneer Kadhai</strong> --- <em>$9.99</em><br />
+                    <small>Cottage cheese, bell peppers, gravy, garam masala, cashew</small>
+                </p>
+                <p>
+                    <strong>Malai Kofta</strong> --- <em>$9.99</em><br />
+                    <small>Heavy cream, garam masala, caraway seeds, ginger, butter</small>
+                </p>
+                <p>
+                    <strong>Shahi Paneer</strong> --- <em>$11.99</em><br />
+                    <small>Cottage Cheese in a creamy coconut sauce served</small>
+                </p>
+                <p>
+                    <strong>Bagarai Baigan</strong> --- <em>$9.99</em><br />
+                    <small>Whole baby eggplant in a hyderabadi style curry</small>
+                </p>
+                <p>
+                    <strong>Mirchi ka Salan</strong> --- <em>$9.99</em><br />
+                    <small>Fried chilies, spices and peanuts in an aromatic hyderabadi style
+                        curry</small>
+                </p>
+            </div>
+
+            <!-- This section has information related to chicken entrees category -->
+            <h3 class="menu_head">Chicken Entrees</h3>
+            <div class="app" id="panel">
+                <p>
+                    <strong>Chicken Sukkha</strong> --- <em>$12.99</em><br />
+                    <small>Chicken, Coconut cream, chicken thigh fillet, fennel seeds,
+                        black, chili</small>
+                </p>
+                <p>
+                    <strong>Methi Chicken</strong> --- <em>$12.99</em><br />
+                    <small>Fresh methi leaves, yogurt, garam masala powder, mustard and
+                        chicken</small>
+                </p>
+                <p>
+                    <strong>Chicken Handi</strong> --- <em>$11.99</em><br />
+                    <small>Bone in Chicken, heavy cream, garam masala powder cooked in clay
+                        pot</small>
+                </p>
+                <p>
+                    <strong>Butter Chicken Combo</strong> --- <em>$14.99</em><br />
+                    <small>Tomato sauce, skinless chicken breasts, low fat, garam masala.
+                        Served with choice of 2 sides</small>
+                </p>
+                <p>
+                    <strong>Butter Chicken</strong> --- <em>$11.99</em><br />
+                    <small>Tomato sauce, skinless chicken breasts, low fat, garam
+                        masala</small>
+                </p>
+                <p>
+                    <strong>Chicken Khorma</strong> --- <em>$11.99</em><br />
+                    <small>Chicken braised in a rich creamy aromatic flavored sauce with
+                        yogurt,ground almond & cashew</small>
+                </p>
+                <p>
+                    <strong>Kadhai Chicken Combo</strong> --- <em>$14.99</em><br />
+                    <small>Chicken, bell peppers, garam masala, cashew nuts, kasuri meethi.
+                        Served with choice of 2 sides</small>
+                </p>
+                <p>
+                    <strong>Kadhai Chicken</strong> --- <em>$11.99</em><br />
+                    <small>Chicken, bell peppers, garam masala, cashew nuts, kasuri
+                        meethi</small>
+                </p>
+                <p>
+                    <strong>Chicken Tikka Masala</strong> --- <em>$11.99</em><br />
+                    <small>Marinated boneless chicken roasted in tandoor and cooked with
+                        spicy tomato cream sauce</small>
+                </p>
+                <p>
+                    <strong>Chicken Haleem</strong> --- <em>$12.99</em><br />
+                    <small>Chicken, lentils, and grains slow cooked then garnished with
+                        fried onions, fresh mint, green chilies, and fresh lemon</small>
+                </p>
+                <p>
+                    <strong>Chicken Tikka Masala Combo</strong> --- <em>$14.99</em><br />
+                    <small>Marinated boneless chicken roasted in tandoor and cooked with
+                        spicy tomato cream sauce. Served with choice of 2 sides</small>
+                </p>
+                <p>
+                    <strong>Chicken Khorma Combo</strong> --- <em>$14.99</em><br />
+                    <small>Chicken braised in a rich creamy aromatic flavored sauce with
+                        yogurt,ground almond & cashew. Served with choice of 2
+                        sides</small>
+                </p>
+                <p>
+                    <strong>Chicken 65</strong> --- <em>$11.99</em><br />
+                    <small>Chicken, chili sauce, corn flour, green bell pepper, red bell
+                    </small>
+                </p>
+            </div>
+
+            <!-- This section has information related to naan/breads category -->
+            <h3 class="menu_head">Naan/Breads</h3>
+            <div class="app" id="panel">
+                <p>
+                    <strong>Butter Naan/Plain Naan</strong> --- <em>$1.99</em><br />
+                </p>
+                <p><strong>Garlic Naan</strong> --- <em>$2.49</em><br /></p>
+                <p><strong>Chili Naan</strong> --- <em>$2.99</em><br /></p>
+                <p><strong>Peshawari Naan</strong> --- <em>$3.99</em><br /></p>
+                <p><strong>Rumali Roti</strong> --- <em>$3.99</em><br /></p>
+            </div>
+
+            <!-- This section has information related to desserts category -->
+            <h3 class="menu_head">Desserts</h3>
+            <div class="app" id="panel">
+                <p><strong>Kheer/Rice Pudding </strong> --- <em>$4.99</em><br /></p>
+                <p><strong>Double Ka Meetha</strong> --- <em>$4.99</em><br /></p>
+                <p><strong>Carrot Halwa</strong> --- <em>$5.99</em><br /></p>
+                <p><strong>Gulab Jamun</strong> --- <em>$3.99</em><br /></p>
+                <p><strong>Qubani Ka Meetha</strong> --- <em>$4.99</em><br /></p>
+            </div>
+
+            <!-- This section has information related to drinks category -->
+            <h3 class="menu_head">Drinks</h3>
+            <div class="app" id="panel">
+                <p><strong>Chai (Hot Tea)</strong> --- <em>$1.99</em><br /></p>
+                <p><strong>Mango Lassi</strong> --- <em>$3.49</em><br /></p>
+                <p><strong>Plain Lassi (Sweet)</strong> --- <em>$2.49</em><br /></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer is consistent through out the website with copy rights -->
+    <footer class="bottom">
+        <div class="center">
+            All rights reserved. &copy; 2021 MAK's Cafe.
+        </div>
+    </footer>
+</body>
+
+</html>

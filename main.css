@@ -1,0 +1,158 @@
+/* MAK Cafe's Homepage CSS */
+
+/* Styling the heading */
+.heading {
+  text-align: center;
+  color: aliceblue;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 30px;
+  margin: 0%;
+}
+
+h1 {
+  background-image: url("./MAKCafe_images/Background.jpg");
+  background-position: center;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px white;
+}
+
+/* Styling heading in the body */
+h2 {
+  text-align: center;
+  padding-top: 30px;
+  margin: 0;
+  text-shadow: 5px 5px 10px teal;
+}
+
+/* Styling body specifications */
+body {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.8em;
+  /* min-width: 1300px; */
+}
+
+/* Styling the navigation bar which appears right after the main heading */
+nav.menu {
+  width: 100%;
+  background-color: #f47a60;
+  height: 44px;
+}
+nav.menu ul,
+nav.menu ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+  padding-right: 30px;
+}
+
+nav.menu ul li a {
+  padding: 0 20px;
+  line-height: 44px;
+  font-size: 1.4em;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* Footer styling */
+.bottom {
+  height: 20px;
+  color: white;
+  background-image: url("./MAKCafe_images/Background.jpg");
+  background-position: center;
+  padding: 30px;
+  bottom: 0;
+}
+.center {
+  text-align: center;
+  font-size: smaller;
+}
+
+/* Styling the menu button */
+.btn-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.see {
+  background-color: #003333;
+  font-size: 24px;
+  padding: 20px;
+  border-radius: 50%;
+  color: aliceblue;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.see:hover {
+  background-color: #f47a60;
+  color: #003333;
+}
+
+/* Styling the images in the main body */
+div .images-1 p img {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.images-1 > p {
+  padding: 3em;
+  background-color: bisque;
+}
+
+.images-1 > p:nth-child(odd) {
+  background-color: beige;
+}
+
+.images-1 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+p {
+  text-align: center;
+}
+main {
+  background-image: url("./MAKCafe_images/Beef-Sheekh-Kabab.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main a {
+  text-transform: uppercase;
+}
+
+/* #slideshow img {
+  margin-left: 80%;
+  margin-right: 80%;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px #003333;
+} */
+
+/* .wrapper {
+  width: 540px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 3px solid green;
+} */
+
+.bx-wrapper {
+  margin-left: 580px;
+  margin-top: 20px;
+}
+
+/* #slider-area li {
+  width: none;
+} */
+/* .bx-viewport {
+  height: 500px;
+} */
