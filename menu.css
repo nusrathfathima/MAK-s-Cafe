@@ -1,5 +1,9 @@
 /* MAK Cafe's Menu CSS */
 
+*{
+  font-family: "Times New Roman", Times, serif;
+}
+
 /* Styling the heading */
 .heading {
   text-align: center;
@@ -49,7 +53,7 @@ nav.menu ul li {
   margin: 0;
   padding: 0;
   list-style: none;
-  float: left;
+  float: right;
   padding-right: 30px;
 }
 
@@ -80,9 +84,8 @@ h2 {
   display: flex;
   justify-content: center;
   margin-top: 0%;
-  margin-left: 500px;
   padding-top: 20px;
-  color: bisque;
+  color:aliceblue;
 }
 
 .menu_head {
@@ -113,20 +116,19 @@ h2 {
   cursor: pointer;
   font-size: medium;
   width: 100%;
-
-  background-image: linear-gradient(
-    140deg,
-    #eadedb 0%,
-    #bc70a4 50%,
-    #bfd641 75%
-  );
-}
-
-#accordion h3:hover {
   background-image: linear-gradient(
     to right,
     rgba(255, 0, 0, 0),
     rgba(255, 0, 0, 1)
+  );
+}
+
+#accordion h3:hover {
+    background-image: linear-gradient(
+    140deg,
+    #eadedb 0%,
+    #bc70a4 50%,
+    #bfd641 75%
   );
   color: aliceblue;
 }
@@ -150,69 +152,3 @@ h2 {
   color:beige;
 }
 
-/* ////////////////// */
-
-.wrapper {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.box {
-  height: 60px;
-
-}
-
-.search-area {
-  position: relative;
-  float:right;
-  margin-left: 500px;
-  /* padding: 0; */
-}
-
-.search-area input[type=text]{
-  border: 0;
-  padding: 0;
-  width: 0;
-  height: 60px;
-  transition: all 0.5s ease;
-}
-
-.icon {
-  background: #003333;
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  top: 0;
-  right: 0;
-  color: #fff;
-  transition: all 0.5s 0.3s ease;
-  margin-left: 50px;
-}
-
-.icon i {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  cursor: pointer;
-  font-size: 35px;
-}
-
-.icon.active {
-  background: #003333;
-  transition: all 0.3s ease;
-}
-
-.search-area input[type=text].active {
-  width: 500px;
-  padding: 0 35px;
-  transition: .5s;
-  color: #000;
-  font-weight: 700;
-  letter-spacing: 2px;
-}

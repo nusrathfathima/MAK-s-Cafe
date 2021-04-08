@@ -1,5 +1,8 @@
 /* MAK Cafe's About CSS */
 
+*{
+  font-family: "Times New Roman", Times, serif;
+}
 /* Styling the heading */
 .heading {
   text-align: center;

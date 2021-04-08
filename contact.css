@@ -1,5 +1,9 @@
 /* MAK Cafe's Contact CSS */
 
+*{
+  font-family: "Times New Roman", Times, serif;
+}
+
 /* Styling the heading */
 .heading {
   text-align: center;
