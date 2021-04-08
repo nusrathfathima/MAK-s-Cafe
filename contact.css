@@ -1,6 +1,7 @@
 /* MAK Cafe's Contact CSS */
 
 *{
+  margin: 0;
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -97,6 +98,7 @@ nav.menu ul li a {
   justify-content: center;
   align-items: center;
   text-shadow: 5px 5px 10px #f47a60;
+  padding-top: 20px;
 }
 
 /* Styling form input and labels on this page */

@@ -1,6 +1,7 @@
 /* MAK Cafe's About CSS */
 
 *{
+  margin: 0;
   font-family: "Times New Roman", Times, serif;
 }
 /* Styling the heading */
@@ -107,4 +108,5 @@ h2 {
 /* Styling the last paragraph in this page */
 #visit {
   text-align: center;
+  padding-bottom: 10px;
 }

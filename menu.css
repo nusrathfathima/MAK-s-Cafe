@@ -1,7 +1,7 @@
 /* MAK Cafe's Menu CSS */
 
 *{
-  font-family: "Times New Roman", Times, serif;
+  margin: 0;
 }
 
 /* Styling the heading */
@@ -86,6 +86,7 @@ h2 {
   margin-top: 0%;
   padding-top: 20px;
   color:aliceblue;
+  text-transform: uppercase;
 }
 
 .menu_head {
@@ -102,11 +103,11 @@ h2 {
 #accordion {
   width: 1000px;
   margin: 0 auto;
-  font: normal normal 13px sans-serif;
+  /* font: normal normal 13px sans-serif; */
 }
 
 #accordion h3 {
-  padding: 20px;
+  padding: 10px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
   -moz-box-shadow: 0 1px 4px #ccc;
@@ -114,13 +115,13 @@ h2 {
   box-shadow: 0 1px 4px #ccc;
   margin: 10px 0;
   cursor: pointer;
-  font-size: medium;
   width: 100%;
   background-image: linear-gradient(
     to right,
     rgba(255, 0, 0, 0),
     rgba(255, 0, 0, 1)
   );
+  color: aliceblue;
 }
 
 #accordion h3:hover {
@@ -130,7 +131,7 @@ h2 {
     #bc70a4 50%,
     #bfd641 75%
   );
-  color: aliceblue;
+  color:black;
 }
 
 #accordion div {
@@ -150,5 +151,9 @@ h2 {
 
 #accordion div:hover{
   color:beige;
+}
+
+#panel p{
+  font-size: large;
 }
 
