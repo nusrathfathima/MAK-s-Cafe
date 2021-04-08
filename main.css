@@ -1,7 +1,7 @@
 /* MAK Cafe's Homepage CSS */
 
 /* Styling the heading */
-*{
+* {
   margin: 0;
   font-family: "Times New Roman", Times, serif;
 }
@@ -13,6 +13,8 @@
   padding-bottom: 100px;
   padding-left: 30px;
   margin: 0%;
+  font-weight: bolder;
+
 }
 
 h1 {
@@ -27,7 +29,8 @@ h2 {
   text-align: center;
   padding-top: 30px;
   margin: 0;
-  text-shadow: 5px 5px 10px teal;
+  text-shadow: 5px 5px 10px #f47a60;
+  color: aliceblue;
 }
 
 /* Styling body specifications */
@@ -37,7 +40,6 @@ body {
   font-style: normal;
   font-size: 18px;
   line-height: 1.8em;
-  /* min-width: 1300px; */
 }
 
 /* Styling the navigation bar which appears right after the main heading */
@@ -92,7 +94,7 @@ nav.menu ul li a {
   color: aliceblue;
   transition-duration: 0.4s;
   cursor: pointer;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .see:hover {
@@ -100,31 +102,7 @@ nav.menu ul li a {
   color: #003333;
 }
 
-/* Styling the images in the main body */
-div .images-1 p img {
-  display: inline-block;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.images-1 > p {
-  padding: 3em;
-  background-color: bisque;
-}
-
-.images-1 > p:nth-child(odd) {
-  background-color: beige;
-}
-
-.images-1 {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-}
-
-p {
-  text-align: center;
-}
+/* Styling the main body of the page */
 main {
   background-image: url("./MAKCafe_images/Beef-Sheekh-Kabab.jpg");
   background-repeat: no-repeat;
@@ -135,13 +113,16 @@ main a {
   text-transform: uppercase;
 }
 
+/* Styling bxSlider plugin */
 .bx-wrapper {
-  margin-left: 580px;
-  margin-top: 20px;
+  margin-left: 500px;
 }
 
-/* AOS Styling */
+.wrapper {
+  padding-top: 20px;
+}
 
+/* Styling AOS plugin */
 .content {
   padding: 3% 0;
 }
@@ -149,9 +130,6 @@ main a {
 .card-title {
   text-align: center;
   text-transform: uppercase;
-  font-style:italic;
-  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
 }
-
-
-

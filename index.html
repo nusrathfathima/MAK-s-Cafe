@@ -11,17 +11,19 @@
     <title>MAK's Cafe</title>
     <!-- index.html has related CSS stored in main.css -->
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" />
-
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <!-- CSS dependency for popular item images -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" />
+    <!-- CSS dependency for bxSlider plugin  -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
-
+    <!-- CSS dependency for AOS plugin  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <!-- Script element for core jQuery library  -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Script element for jQuery bxSlider plugin library  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <!-- Script element for external javaScript for this file -->
     <script type="text/javascript" src="index.js"></script>
 
 
@@ -45,22 +47,25 @@
 
     <!-- main element consists of all the images and names of popular items on the menu and menu button as well -->
     <main>
+        <!-- The following div element consists of bxSlider images to display -->
         <div class="wrapper">
             <div id="slider-area">
-                <div> <img src="./MAKCafe_images/Hyderabadi-chicken-Biryani.jpg" alt="chicken.jpg">
+                <div> <img src="./MAKCafe_images/Hyderabadi-chicken-Biryani.jpg" alt="chicken.jpg" height="500">
                 </div>
-                <div> <img src="./MAKCafe_images/Samosa.jpg" alt="chicken.jpg">
+                <div> <img src="./MAKCafe_images/Samosa.jpg" alt="chicken.jpg" height="500">
                 </div>
-                <div> <img src="./MAKCafe_images/Chicken-Shish-Kebab.jpg" alt="chicken.jpg">
+                <div> <img src="./MAKCafe_images/Chicken-Shish-Kebab.jpg" alt="chicken.jpg" height="500">
                 </div>
-                <div> <img src="./MAKCafe_images/chicken-malai-boti.jpg" alt="chicken.jpg">
+                <div> <img src="./MAKCafe_images/chicken-malai-boti.jpg" alt="chicken.jpg" height="500">
                 </div>
-                <div> <img src="./MAKCafe_images/dilbar-kebab-noorsrecipes.jpg" alt="chicken.jpg">
+                <div> <img src="./MAKCafe_images/dilbar-kebab-noorsrecipes.jpg" alt="chicken.jpg" height="500">
                 </div>
             </div>
         </div>
-        <h2>Popular Items</h2>
 
+        <!-- Heading for popular items from the menu -->
+        <h2>Popular Items</h2>
+<!-- All the images are displayed as cards and AOS plugin animation is given below -->
         <div class="content">
             <div class="container">
                 <div class="row">
