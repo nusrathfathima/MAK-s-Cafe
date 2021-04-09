@@ -1,3 +1,8 @@
+// DOM click Event calling menuButton function
+window.onload = function () {
+  var element = document.getElementById("button");
+  element.addEventListener("click", menuButton);
+  };
 
 // Following function works when the button on the menu page is clicked and this function directs users to menu's page
 function menuButton() {
