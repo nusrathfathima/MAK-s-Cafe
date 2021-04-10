@@ -1,5 +1,6 @@
 /* MAK Cafe's Contact CSS */
 
+/* Adding style for whole page */
 *{
   margin: 0;
   font-family: "Times New Roman", Times, serif;
@@ -29,7 +30,6 @@ body {
   font-size: 18px;
   line-height: 1.8em;
   width: 100%;
-  /* min-width: 1400px; */
 }
 
 /* Styling the navigation bar which appears right after the main heading */
