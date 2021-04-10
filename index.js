@@ -11,6 +11,13 @@ function menuButton() {
 
 // This function is ready when the document is loaded
 $(document).ready(function(){
+
+// DOM each event to preload the images of popular items
+  $(".col-lg-4 img").each(function(){
+    var img = new Image();
+    img.src = $(this).attr("src");
+  })
+
   // Applying or initiating bxSlider plugin
   $("#slider-area").bxSlider({
     auto:true,
@@ -26,5 +33,6 @@ $(document).ready(function(){
 
   // Initiating AOS plugin
   AOS.init();
+
 });
 
