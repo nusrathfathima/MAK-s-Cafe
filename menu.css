@@ -1,6 +1,7 @@
 /* MAK Cafe's Menu CSS */
 
-*{
+/* Setting the whole page with the margin */
+* {
   margin: 0;
 }
 
@@ -26,7 +27,6 @@ body {
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 1.8em;
-  min-width: 1300px;
 }
 
 main {
@@ -85,7 +85,7 @@ h2 {
   justify-content: center;
   margin-top: 0%;
   padding-top: 20px;
-  color:aliceblue;
+  color: aliceblue;
   text-transform: uppercase;
 }
 
@@ -103,9 +103,9 @@ h2 {
 #accordion {
   width: 1000px;
   margin: 0 auto;
-  /* font: normal normal 13px sans-serif; */
 }
 
+/* Styling the Accordion UI widget */
 #accordion h3 {
   padding: 10px;
   -webkit-border-radius: 3px;
@@ -125,13 +125,13 @@ h2 {
 }
 
 #accordion h3:hover {
-    background-image: linear-gradient(
+  background-image: linear-gradient(
     140deg,
     #eadedb 0%,
     #bc70a4 50%,
     #bfd641 75%
   );
-  color:black;
+  color: black;
 }
 
 #accordion div {
@@ -149,11 +149,6 @@ h2 {
   );
 }
 
-#accordion div:hover{
-  color:beige;
-}
-
-#panel p{
+#panel p {
   font-size: large;
 }
-

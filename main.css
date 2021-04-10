@@ -29,8 +29,7 @@ h2 {
   text-align: center;
   padding-top: 30px;
   margin: 0;
-  text-shadow: 5px 5px 10px #f47a60;
-  color: aliceblue;
+  text-shadow: 5px 5px 10px #003333;
 }
 
 /* Styling body specifications */
@@ -40,6 +39,14 @@ body {
   font-style: normal;
   font-size: 18px;
   line-height: 1.8em;
+}
+
+#welcome {
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: larger;
 }
 
 /* Styling the navigation bar which appears right after the main heading */

@@ -28,7 +28,8 @@ body {
   font-style: normal;
   font-size: 18px;
   line-height: 1.8em;
-  min-width: 1400px;
+  width: 100%;
+  /* min-width: 1400px; */
 }
 
 /* Styling the navigation bar which appears right after the main heading */
