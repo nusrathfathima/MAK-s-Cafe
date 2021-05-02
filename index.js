@@ -25,6 +25,7 @@ function newFunction(event) {
 // This function is ready when the document is loaded
 $(document).ready(function () {
 
+  // Ajax request to get data from a JSON file
   $.ajax({
     type: "get",
     url: "input.json",
@@ -40,6 +41,7 @@ $(document).ready(function () {
       });
 
       $("#slider-area").html(html);
+
       // Applying or initiating bxSlider plugin
       $("#slider-area").bxSlider({
         auto: true,
@@ -66,6 +68,7 @@ $(document).ready(function () {
           '</div>' +
           '</div>'
       });
+
       $(".row").html(cards_html);
 
       // Initiating AOS plugin

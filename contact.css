@@ -180,3 +180,18 @@ a:active {
 iframe {
   width: 100%;
 }
+
+/* Styling the div element which showcases the API retrieved data */
+#temperature {
+  background-color:#fd9179;
+  align-items: center;
+  color: aliceblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#temperature h3, p b {
+  color: #003333;
+}
+
+

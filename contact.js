@@ -1,3 +1,4 @@
+// Ajax Request for accessing weather API data
 $(document).ready(function () {
   $.ajax({
     type: "GET",
@@ -8,10 +9,16 @@ $(document).ready(function () {
       "units": "imperial"
     },
     success: function (data) {
-      console.log("SUCCESS");
-      console.log(data.main.temp);
       var html = "";
-      html += "<h3>" + "Temperature"  +  "</h3>";
+      icon_url = "http://openweathermap.org/img/wn/" + data.weather[0].icon + ".png";
+      html += "<h3>" + "Current Weather" + "</h3>" + "<img src='" + icon_url + "'>" +
+        "<p> <i>" + "<b>" + data.weather[0].main + " -" + "</b>" + "- " +
+        data.weather[0].description + "</b>" + "<br>" +
+        "</i></p>" +
+        "<p> <i>" + "Temperature : " + "<b>" + data.main.temp + "&#8457;" + "</b>" + "  " +
+        " Humidity : " + "<b>" + data.main.humidity + "&#37;" + "</b>" + "<br>" +
+        "</i></p>";
+
       $("#temperature").html(html);
     },
     error: function (response) {
@@ -19,6 +26,7 @@ $(document).ready(function () {
     }
   });
 });
+
 // DOM Events submit, mouseover and mouseout are called in this function
 window.onload = function () {
   var form = document.getElementById("form_contact");
