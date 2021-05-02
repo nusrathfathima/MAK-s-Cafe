@@ -1,0 +1,182 @@
+/* MAK Cafe's Contact CSS */
+
+/* Adding style for whole page */
+*{
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Styling the heading */
+.heading {
+  text-align: center;
+  color: aliceblue;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 30px;
+  margin: 0%;
+}
+
+h1 {
+  background-image: url("./MAKCafe_images/Background.jpg");
+  background-position: center;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px white;
+}
+
+/* Styling body specifications */
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.8em;
+  width: 100%;
+}
+
+/* Styling the navigation bar which appears right after the main heading */
+nav.menu {
+  width: 100%;
+  background-color: #f47a60;
+  height: 44px;
+}
+nav.menu ul,
+nav.menu ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+  padding-right: 30px;
+}
+
+nav.menu ul li a {
+  padding: 0 20px;
+  line-height: 44px;
+  font-size: 1.4em;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* Footer styling */
+.bottom {
+  height: 20px;
+  color: white;
+  background-image: url("./MAKCafe_images/Background.jpg");
+  background-position: center;
+  padding: 30px;
+  bottom: 0;
+}
+.center {
+  text-align: center;
+  font-size: smaller;
+}
+
+/* Styling Hours of operation section */
+.ul_list {
+  list-style-type: none;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  text-align: center;
+  margin: 20px;
+  align-content: space-around;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.app > div {
+  background-color: #fff1e1;
+  padding: 2em;
+}
+
+.app > div:nth-child(odd) {
+  background-color: beige;
+}
+
+/* Sub heading of this page*/
+.contact_head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 5px 5px 10px #f47a60;
+  padding-top: 20px;
+}
+
+/* Styling form input and labels on this page */
+#form_section {
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.user-info label {
+  display: table-cell;
+  padding-right: 30px;
+  font-weight: bold;
+}
+.user-info form {
+  display: table;
+}
+.user-info p {
+  display: table-row;
+  line-height: 60px;
+}
+.user-info button {
+  display: table-cell;
+}
+
+.user-info input,
+select,
+textarea {
+  width: 200%;
+  display: table-cell;
+  padding: 10px;
+}
+
+.form_field * {
+  vertical-align: middle;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  padding-right: 100px;
+}
+
+/* Styling submit button of form */
+.submit {
+  margin-left: 190px;
+  background-color: #003333;
+  color: aliceblue;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styling visit us section of this page */
+section div p {
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  background-color: #f47a60;
+  color: aliceblue;
+}
+
+/* Setting iframe's width */
+iframe {
+  width: 100%;
+}

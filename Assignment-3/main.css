@@ -1,0 +1,142 @@
+/* MAK Cafe's Homepage CSS */
+
+/* Styling the heading */
+* {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.heading {
+  text-align: center;
+  color: aliceblue;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 30px;
+  margin: 0%;
+  font-weight: bolder;
+
+}
+
+h1 {
+  background-image: url("./MAKCafe_images/Background.jpg");
+  background-position: center;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px white;
+}
+
+/* Styling heading in the body */
+h2 {
+  text-align: center;
+  padding-top: 30px;
+  margin: 0;
+  text-shadow: 5px 5px 10px #003333;
+}
+
+/* Styling body specifications */
+body {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.8em;
+}
+
+#welcome {
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: larger;
+}
+
+/* Styling the navigation bar which appears right after the main heading */
+nav.menu {
+  width: 100%;
+  background-color: #f47a60;
+  height: 44px;
+}
+nav.menu ul,
+nav.menu ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+  padding-right: 30px;
+}
+
+nav.menu ul li a {
+  padding: 0 20px;
+  line-height: 44px;
+  font-size: 1.4em;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* Footer styling */
+.bottom {
+  height: 20px;
+  color: white;
+  background-image: url("./MAKCafe_images/Background.jpg");
+  background-position: center;
+  padding: 30px;
+  bottom: 0;
+}
+.center {
+  text-align: center;
+  font-size: smaller;
+}
+
+/* Styling the menu button */
+.btn-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.see {
+  background-color: #003333;
+  font-size: 24px;
+  padding: 20px;
+  border-radius: 50%;
+  color: aliceblue;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.see:hover {
+  background-color: #f47a60;
+  color: #003333;
+}
+
+/* Styling the main body of the page */
+main {
+  background-image: url("./MAKCafe_images/Beef-Sheekh-Kabab.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main a {
+  text-transform: uppercase;
+}
+
+/* Styling bxSlider plugin */
+.bx-wrapper {
+  margin-left: 500px;
+}
+
+.wrapper {
+  padding-top: 20px;
+}
+
+/* Styling AOS plugin */
+.content {
+  padding: 3% 0;
+}
+
+.card-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}

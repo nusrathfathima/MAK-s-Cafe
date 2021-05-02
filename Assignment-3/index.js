@@ -25,44 +25,21 @@ function newFunction(event) {
 // This function is ready when the document is loaded
 $(document).ready(function () {
 
+  // Applying or initiating bxSlider plugin
+  $("#slider-area").bxSlider({
+    auto: true,
+    minSlides: 1,
+    maxSlides: 1,
+    captions: true,
+    randomStart: true,
+    speed: 3000,
+    adaptiveHeight: true,
+    slideWidth: 500,
+    slideMargin: 10
+  });
+
   // Initiating AOS plugin
   AOS.init();
-
-  $.ajax({
-    type: "get",
-    url: "input.json",
-    timeout: 10000,
-    error: function (xhr, status, error) {
-      alert("Error: " + xhr.status + " - " + error);
-    },
-    dataType: "json",
-    success: function (data) {
-      var html = "";
-      $.each(data.slider_images, function (key, value) {
-        html += "<div>" + "<img src=" + value.image +
-          "></div>";
-      });
-
-      $("#slider-area").html(html);
-        // Applying or initiating bxSlider plugin
-      $("#slider-area").bxSlider({
-        auto: true,
-        minSlides: 1,
-        maxSlides: 1,
-        captions: true,
-        randomStart: true,
-        speed: 3000,
-        adaptiveHeight: true,
-        slideWidth: 500,
-        slideMargin: 10
-      });
-
-      // $.each(data.images, function (key, value) {
-      //   html += "<img src=" + value.image +">";
-      // });
-      // $(".container").html(html);
-    },
-  });
 
 });
 

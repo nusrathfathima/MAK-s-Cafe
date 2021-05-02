@@ -1,20 +1,3 @@
-$(document).ready(function () {
-  $.ajax({
-    type: "GET",
-    url: "http://api.openweathermap.org/data/2.5/weather",
-    data: {
-      "q": "Charlotte,USA",
-      "appid": "5bfa3c2f5b055da3b38fae69e7159ff9"
-    },
-    success: function (data) {
-      console.log("SUCCESS");
-      console.log(data);
-    },
-    error: function (response) {
-      console.log("Request Failed");
-    }
-  });
-});
 // DOM Events submit, mouseover and mouseout are called in this function
 window.onload = function () {
   var form = document.getElementById("form_contact");
@@ -39,7 +22,4 @@ function myFunction(event) {
 function newFunction(event) {
   event.target.style.color = "";
 }
-
-
-
 

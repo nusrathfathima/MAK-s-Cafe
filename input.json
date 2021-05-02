@@ -1,0 +1,74 @@
+{
+    "images": [
+        {
+            "title": "Mutton Biryani",
+            "image": "./MAKCafe_images/mutton-biryani-500x500.jpg"
+        },
+        {
+            "title": "Masala Dosa",
+            "image": "./MAKCafe_images/Dosa.jpg"
+        },
+        {
+            "title": "Chicken Haleem",
+            "image": "./MAKCafe_images/Haleem.jpg"
+        },
+        {
+            "title": "Gulab Jamun",
+            "image": "./MAKCafe_images/Gulab-Jamun.jpg"
+        },
+        {
+            "title": "Shahi Paneer",
+            "image": "./MAKCafe_images/shahi-paneer-recipe-12970-dish.1024x1024-1.jpg"
+        },
+        {
+            "title": "Chicken Malai Boti",
+            "image": "./MAKCafe_images/chicken-malai-boti.jpg"
+        },
+        {
+            "title": "Lamb Kebab",
+            "image": "./MAKCafe_images/dilbar-kebab-noorsrecipes.jpg"
+        },
+        {
+            "title": "Aloo Samosa",
+            "image": "./MAKCafe_images/Samosa.jpg"
+        },
+        {
+            "title": "Mango Lassi",
+            "image": "./MAKCafe_images/Mango-Lassi.jpg"
+        },
+        {
+            "title": "Chicken Kadhai",
+            "image": "./MAKCafe_images/maxresdefault-3.jpg"
+        },
+        {
+            "title": "Chicken Dum Biriyani",
+            "image": "./MAKCafe_images/Hyderabadi-chicken-Biryani.jpg"
+        },
+        {
+            "title": "Shish Kebab",
+            "image": "./MAKCafe_images/Chicken-Shish-Kebab.jpg"
+        }
+    ],
+    "slider_images": [
+        {
+            "title": "Biryani",
+            "image": "./MAKCafe_images/Hyderabadi-chicken-Biryani.jpg"
+        },
+        {
+            "title": "Samosa",
+            "image": "./MAKCafe_images/Samosa.jpg"
+        },
+        {
+            "title": "Chicken Kebab",
+            "image": "./MAKCafe_images/Chicken-Shish-Kebab.jpg"
+        },
+        {
+            "title": "Malai Boti",
+            "image": "./MAKCafe_images/chicken-malai-boti.jpg"
+        },
+        {
+            "title": "Lamb Kebab",
+            "image": "./MAKCafe_images/dilbar-kebab-noorsrecipes.jpg"
+        }
+    ]
+}
