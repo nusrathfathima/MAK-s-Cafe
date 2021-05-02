@@ -25,9 +25,6 @@ function newFunction(event) {
 // This function is ready when the document is loaded
 $(document).ready(function () {
 
-  // Initiating AOS plugin
-  AOS.init();
-
   $.ajax({
     type: "get",
     url: "input.json",
@@ -39,12 +36,11 @@ $(document).ready(function () {
     success: function (data) {
       var html = "";
       $.each(data.slider_images, function (key, value) {
-        html += "<div>" + "<img src=" + value.image +
-          "></div>";
+        html += "<div>" + "<img src='" + value.image + "' height='500'></div>";
       });
 
       $("#slider-area").html(html);
-        // Applying or initiating bxSlider plugin
+      // Applying or initiating bxSlider plugin
       $("#slider-area").bxSlider({
         auto: true,
         minSlides: 1,
@@ -57,10 +53,23 @@ $(document).ready(function () {
         slideMargin: 10
       });
 
-      // $.each(data.images, function (key, value) {
-      //   html += "<img src=" + value.image +">";
-      // });
-      // $(".container").html(html);
+      var cards_html = ""
+      var card_animation = ['flip-right', 'flip-left', 'flip-down', 'flip-up']
+      $.each(data.images, function (key, value) {
+        cards_html += '<div class="col-lg-4">' +
+          '<div class="card" data-aos="' + card_animation[Math.floor(Math.random() * card_animation.length)] + '" data-aos-duration="1000">' +
+          '<img id="card_image" src="' + value.image + '" class="card-img-top" alt="Img-1.jpg"' +
+          'height="250">' +
+          '<div class="card-body">' +
+          '<h5 class="card-title">' + value.title + '</h5>' +
+          '</div>' +
+          '</div>' +
+          '</div>'
+      });
+      $(".row").html(cards_html);
+
+      // Initiating AOS plugin
+      AOS.init();
     },
   });
 

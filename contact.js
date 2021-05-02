@@ -4,11 +4,15 @@ $(document).ready(function () {
     url: "http://api.openweathermap.org/data/2.5/weather",
     data: {
       "q": "Charlotte,USA",
-      "appid": "5bfa3c2f5b055da3b38fae69e7159ff9"
+      "appid": "5bfa3c2f5b055da3b38fae69e7159ff9",
+      "units": "imperial"
     },
     success: function (data) {
       console.log("SUCCESS");
-      console.log(data);
+      console.log(data.main.temp);
+      var html = "";
+      html += "<h3>" + "Temperature"  +  "</h3>";
+      $("#temperature").html(html);
     },
     error: function (response) {
       console.log("Request Failed");
