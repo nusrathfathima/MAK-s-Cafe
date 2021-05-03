@@ -1,0 +1,588 @@
+{
+    "Appetizers": [
+        {
+            "name": "Chicken Pakoda",
+            "price": "$7.99",
+            "description": "Chicken, Chickpea flour, garam masala, garlic, chili powder, rings"
+        },
+        {
+            "name": "Chana Chaat",
+            "price": "$4.99",
+            "description": "Puffed rice, black chickpeas, yogurt, green chutney"
+        },
+        {
+            "name": "Vegetable Pakoda",
+            "price": "$4.99",
+            "description": "Chickpea flour, garam masala, garlic, chili powder, rings"
+        },
+        {
+            "name": "Aloo Tikki Chaat",
+            "price": "$5.99",
+            "description": "Rice flour, potatoes, green chutney, chaat masala, black salt"
+        },
+        {
+            "name": "Paneer Pakoda",
+            "price": "$7.99",
+            "description": "Cottage cheese, rice flour, gram flour, kasuri methi, chaat masala"
+        },
+        {
+            "name": "Cut Mirchi",
+            "price": "$4.99",
+            "description": "Roasted chana dal, fresh green chilies, sesame seeds, gram flour, curry leaves"
+        },
+        {
+            "name": "Samosa Chaat",
+            "price": "$4.99",
+            "description": "Chickpeas topped with samosa, yogurt and tamarind sauce"
+        },
+        {
+            "name": "Chicken Samosa",
+            "price": "$5.99",
+            "description": "Flaky pastry filled with seasoned minced chicken"
+        },
+        {
+            "name": "Vegetable Samosa",
+            "price": "$3.99",
+            "description": "Flaky pastry filled with seasoned potatoes and peas"
+        }
+    ],
+    "Biryani": [
+        {
+            "name": "Chicken Kheema Biryani",
+            "price": " $9.99",
+            "description": "Rice with grounded chicken, flavored with fresh mint and herbs and cooked to perfection"
+        },
+        {
+            "name": "Chicken Boneless Biryani",
+            "price": "$11.99",
+            "description": "Rice with boneless chicken, flavored with fresh mint and herbs and cooked to perfection"
+        },
+        {
+            "name": "Chicken Sindhi Biryani",
+            "price": "$9.99",
+            "description": "Rice with stewed chicken, flavored with fresh mint and herbs and cooked to perfection"
+        },
+        {
+            "name": "Lamb Kheema Biryani",
+            "price": "$12.99",
+            "description": "Grounded Lamb with fresh mint and herbs, layered with rice and cooked to perfection"
+        },
+        {
+            "name": "Paneer Biryani",
+            "price": "$13.99",
+            "description": "Paneer (Cottage Cheese) flavored with fresh mint and herbs, layered with rice and cooked to perfection"
+        },
+        {
+            "name": "Egg Dum Biryani",
+            "price": "$8.99",
+            "description": "Eggs with fresh mint and herbs, layered with rice and cooked to perfection"
+        },
+        {
+            "name": "Shrimp Biryani",
+            "price": " $14.99",
+            "description": "Shrimp with fresh mint and herbs, layered with rice and cooked to perfection"
+        },
+        {
+            "name": "Vegetable Biryani",
+            "price": "$8.99",
+            "description": "Mixed vegetables flavoured with fresh mint and herbs, layered with rice and cooked to perfection"
+        },
+        {
+            "name": "Chicken Dum Biryani",
+            "price": "$9.99",
+            "description": "Rice with stewed chicken, flavored with fresh mint and herbs and cooked to perfection"
+        },
+        {
+            "name": "Mutton Dum Biryani",
+            "price": "$9.99",
+            "description": "Stewed mutton with fresh mint and herbs, layered with rice and cooked to perfection"
+        }
+    ],
+    "Goat Entrees": [
+        {
+            "name": "Goat Khorma Combo",
+            "price": "$16.99",
+            "description": "Goat braised in a rich creamy aromatic flavored sauce with yogurt, ground almond & cashew. Served with choice of 2 sides"
+        },
+        {
+            "name": "Goat Khorma",
+            "price": " $13.99",
+            "description": "Goat braised in a rich creamy aromatic flavored sauce with yogurt, ground almond & cashew"
+        },
+        {
+            "name": "Goat Rogan Josh",
+            "price": "$13.99",
+            "description": "Goat shoulder, red vinegar, garam masala, hot sauce, garlic, ginger"
+        },
+        {
+            "name": "Kadhai Goat",
+            "price": "$13.99",
+            "description": "Goat , Yogurt, garam masala, ginger, tomatoes, green chilies"
+        },
+        {
+            "name": "Goat Sukkha",
+            "price": "$14.99",
+            "description": "Goat , Yogurt, garam masala powder, green chillies, curry leaves, tomatoes"
+        },
+        {
+            "name": "Handi Goat",
+            "price": "$13.99",
+            "description": "Goat , cream, tomatoes, dry ginger, cinnamon sticks"
+        },
+        {
+            "name": "Bhuna Goat",
+            "price": "$13.99",
+            "description": "Goat Meat (Mutton), yogurt, ginger, garlic, black cardamom"
+        }
+    ],
+    "Lamb Entrees": [
+        {
+            "name": "Lamb Sukka",
+            "price": "$14.99",
+            "description": "Lamb, Yogurt, garam masala powder, green, curry leaves, tomatoes"
+        },
+        {
+            "name": "Lamb Handi",
+            "price": "$13.99",
+            "description": "Lamb, cream, tomatoes, dry ginger, cinnamon sticks"
+        },
+        {
+            "name": "Lamb Kadhai",
+            "price": "$13.99",
+            "description": "Lamb, Yogurt, garam masala, ginger, tomatoes, green chilies"
+        },
+        {
+            "name": "Lamb Rogan Josh",
+            "price": "$13.99",
+            "description": "Lamb shoulder, red vinegar, garam masala, hot sauce, garlic, ginger"
+        },
+        {
+            "name": "Lamb Hyderabadi",
+            "price": "$13.99",
+            "description": "Lamb Meat, Garam masala powder, lemon juice, black pepper, ginger garlic"
+        },
+        {
+            "name": "Bhuna Gosht",
+            "price": "$13.99",
+            "description": "Lamb Meat (Mutton), dahi, ginger, garlic, black cardamom"
+        },
+        {
+            "name": "Lamb Haleem",
+            "price": "$14.99",
+            "description": "Mutton, lentils, and grains slow cooked then garnished with fried onions, fresh mint, green chilies, and fresh lemon"
+        },
+        {
+            "name": "Lamb Khorma",
+            "price": "$13.99",
+            "description": "Lamb braised in a rich creamy aromatic flavored sauce with yogurt, ground almond & cashew"
+        }
+    ],
+    "Tandoor/Grill": [
+        {
+            "name": "Lamb Sheekh Kebab Combo",
+            "price": "$11.99",
+            "description": "Ground lamb marinated with spices. Served with choice of 2 sides"
+        },
+        {
+            "name": "Paneer Tikka Combo ",
+            "price": "$11.99",
+            "description": "Grilled chunks of paneer marinated in yogurt and spices. Served with choice of 2 sides"
+        },
+        {
+            "name": "Chicken Tandoor Combo ",
+            "price": "$10.99",
+            "description": "Roasted grilled chicken marinated in yogurt and spices. Served with choice of 2 sides"
+        },
+        {
+            "name": "Beef Sheekh Kebab Combo",
+            "price": "$12.99",
+            "description": "Ground Beef marinated with Spices. Served with choice of 2 sides"
+        },
+        {
+            "name": "Chicken Sheekh Kebab Combo",
+            "price": "$11.99",
+            "description": "Ground Chicken marinated with Spices. Served with choice of 2 sides"
+        },
+        {
+            "name": "Chicken Malai Boti Combo",
+            "price": "$12.99",
+            "description": "Boneless chicken marinated in sour cream and spices. Served with choice of 2 sides"
+        },
+        {
+            "name": "Chicken Tikka Boti Combo",
+            "price": "$12.99",
+            "description": "Boneless chicken marinated with yogurt and spices. Served with choice of 2 sides"
+        }
+    ],
+    "South Indian": [
+        {
+            "name": "Idly",
+            "price": "$5.99",
+            "description": "Fermented batter of rice, black gram lentils is steam cooked & served with chutney & sambar"
+        },
+        {
+            "name": "Button Idly Sambar",
+            "price": "$6.99",
+            "description": "Byte size idly are immersed in sambar and served"
+        },
+        {
+            "name": "Idly Vada Combo",
+            "price": "$6.99",
+            "description": "2 Idly and 1 Vada served with chutney & sambar"
+        },
+        {
+            "name": "Pongal",
+            "price": "$6.99",
+            "description": "Rice mixed with yellow moong lentils laced with cumin,black pepper and seasoned with ghee, cashew nuts"
+        },
+        {
+            "name": "Sambar Rice",
+            "price": "$7.99",
+            "description": "Rice mixed with soupy lentils mixed with cooked veggies seasoned in hot oil with mustard & cumin seeds"
+        },
+        {
+            "name": "Sambar Vada",
+            "price": "$5.99",
+            "description": "Vada(fried lentil fritters) dipped in spiced soupy lentils"
+        },
+        {
+            "name": "Medu Vada",
+            "price": "$5.99",
+            "description": "Deep fried fritters made from batter of black gram lentils mixed with cumin, peppercorns served with chutney & sambar"
+        },
+        {
+            "name": "Puri Bhaji",
+            "price": "$7.99",
+            "description": "Poori is a puffed up, flaky deep fried Indian bread served with mildly-spiced potato stir-fry"
+        },
+        {
+            "name": "Chole Puri",
+            "price": "$6.99",
+            "description": "Chole(chickpeas) are cooked in gravy of onion, tomato and spices served with hot fluffy puri"
+        },
+        {
+            "name": "Plain Dosa",
+            "price": "$6.99",
+            "description": "Crepe/pancake roasted on hot pan made from batter of rice, black gram lentils served with chutney & sambar"
+        },
+        {
+            "name": "Mysore Masala Dosa",
+            "price": "$8.99",
+            "description": "Crepe/pancake roasted on hot pan with spicy masala paste spread & stuffed with lightly cooked potatoes and onions curry"
+        },
+        {
+            "name": "Masala Dosa",
+            "price": "$7.99",
+            "description": "Crepe/pancake roasted on hot pan stuffed with lightly cooked potatoes, onion curry & served with chutney & sambar"
+        },
+        {
+            "name": "Onion Dosa",
+            "price": "$7.99",
+            "description": "Crepe/pancake roasted on hot pan stuffed with lightly fried diced onions served with chutney & sambar"
+        },
+        {
+            "name": "Egg Dosa",
+            "price": "$8.99",
+            "description": "Crepe/pancake roasted on hot pan stuffed with scrambled egg, fried diced onions served with chutney & sambar"
+        }
+    ],
+    "Rice Entrees and Noodles": [
+        {
+            "name": "Veg Hakka Noodles",
+            "price": "$9.99",
+            "description": "Hakka Noodles, vegetables, soy sauce, toasted sesame oil, red bell pepper"
+        },
+        {
+            "name": "Triple Schezwan Veg Fried Rice",
+            "price": "$10.99",
+            "description": "Basmati rice, vegetables, Schezwan sauce, toasted sesame oil, red bell pepper"
+        },
+        {
+            "name": "Veg Fried Rice",
+            "price": "$9.99",
+            "description": "Basmati rice, soy sauce, toasted sesame oil, red bell pepper"
+        },
+        {
+            "name": "Shrimp Noodles",
+            "price": "$13.99",
+            "description": "Shrimps, Hakka Noodles, cabbage, Manchurian Sauce"
+        },
+        {
+            "name": "Shrimp Fried Rice",
+            "price": "$12.99",
+            "description": "Shrimps, Manchurian sauce, basmati rice, cabbage"
+        },
+        {
+            "name": "Lamb Fried Rice",
+            "price": "$14.99",
+            "description": "Lamb, Manchurian sauce, basmati rice, cabbage"
+        },
+        {
+            "name": "Chicken Manchurian Fried Rice",
+            "price": "$12.99",
+            "description": "Chicken, Manchurian sauce, basmati rice, cabbage"
+        },
+        {
+            "name": "Chicken Fried Rice",
+            "price": "$11.99",
+            "description": "Chicken, Schezwan sauce, basmati rice, cabbage"
+        },
+        {
+            "name": "Mixed Noodles",
+            "price": "$14.99",
+            "description": "Chicken, Hakka Noodles, Schezwan sauce, basmati rice, cabbage"
+        },
+        {
+            "name": "Mixed Fried Rice",
+            "price": "$14.99",
+            "description": "Chicken, Schezwan sauce, basmati rice, cabbage"
+        },
+        {
+            "name": "Triple Schezwan Chicken Fried Rice",
+            "price": "$13.99",
+            "description": "Hakka noodles, schezwan sauce, basmati rice, cabbage"
+        },
+        {
+            "name": "Chicken Schezwan",
+            "price": "$12.99",
+            "description": "White corn flour, sesame oil, egg white, rice vinegar, ginger"
+        },
+        {
+            "name": "Chicken Schezwan Noodles",
+            "price": "$12.99",
+            "description": "Schezwan noodles, soy sauce, chicken breasts, green bell"
+        },
+        {
+            "name": "Chicken Hakka Noodles",
+            "price": "$11.99",
+            "description": "Hakka noodles, soy sauce, chicken breasts, green bell"
+        }
+    ],
+    "Vegetarian Entrees": [
+        {
+            "name": "Paneer Chili",
+            "price": "$9.99",
+            "description": "Paneer(Cottage Cheese), chili sauce, corn flour, green bell pepper, red bell"
+        },
+        {
+            "name": "Gobi 65",
+            "price": "$9.99",
+            "description": "Gobi, chili sauce, corn flour, green bell pepper, red bell"
+        },
+        {
+            "name": "Paneer 65",
+            "price": "$10.99",
+            "description": "Paneer (Cottage Cheese), chili sauce, corn flour, green bell pepper, red bell"
+        },
+        {
+            "name": "Veg Manchurian",
+            "price": "$9.99",
+            "description": "Mixed Vegetables, chili sauce, corn flour, green bell pepper, red bell"
+        },
+        {
+            "name": "Gobi Manchurian",
+            "price": "$9.99",
+            "description": "Gobi, chili sauce, corn flour, green bell pepper, red bell"
+        },
+        {
+            "name": "Chana Masala",
+            "price": "$9.99",
+            "description": "Chick Peas, Garam masala, kasuri methi, cinnamon, green chili, chili"
+        },
+        {
+            "name": "Mixed Vegetable",
+            "price": "$9.99",
+            "description": "Red potatoes, zucchini, red bell pepper, carrots, olive oil"
+        },
+        {
+            "name": "Veg Kadhai",
+            "price": "$9.99",
+            "description": "Bell peppers, potatoes, green peas, low fat, bell pepper"
+        },
+        {
+            "name": "Mutter Paneer",
+            "price": "$9.99",
+            "description": "Cottage cheese, green peas, cream, garam masala, ginger"
+        },
+        {
+            "name": "Bhendi (Okra) Masala",
+            "price": "$8.99",
+            "description": "Bhendi(Okra), garam masala powder, kasuri methi, chili"
+        },
+        {
+            "name": "Aloo Palak",
+            "price": "$9.99",
+            "description": "Potatoes, lemon, garam masala, red onion, avocado oil"
+        },
+        {
+            "name": "Dal Tadka",
+            "price": "$7.99",
+            "description": "Masoor dal, charcoal, cream, garam masala powder, ginger"
+        },
+        {
+            "name": "Palak Paneer",
+            "price": "$11.99",
+            "description": "Paneer, spinach, heavy cream, garam masala, ginger"
+        },
+        {
+            "name": "Paneer Tikka Masala",
+            "price": "$10.99",
+            "description": "Paneer, greek yogurt, tandoori masala, cream, bell pepper"
+        },
+        {
+            "name": "Paneer Kadhai",
+            "price": "$9.99",
+            "description": "Cottage cheese, bell peppers, gravy, garam masala, cashew"
+        },
+        {
+            "name": "Malai Kofta",
+            "price": "$9.99",
+            "description": "Heavy cream, garam masala, caraway seeds, ginger, butter"
+        },
+        {
+            "name": "Shahi Paneer",
+            "price": "$11.99",
+            "description": "Cottage Cheese in a creamy coconut sauce served"
+        },
+        {
+            "name": "Bagarai Baigan",
+            "price": "$9.99",
+            "description": "Whole baby eggplant in a hyderabadi style curry"
+        },
+        {
+            "name": "Mirchi ka Salan",
+            "price": "$9.99",
+            "description": "Fried chilies, spices and peanuts in an aromatic hyderabadi style curry"
+        }
+    ],
+    "Chicken Entrees": [
+        {
+            "name": "Chicken Sukkha",
+            "price": "$12.99",
+            "description": "Chicken, Coconut cream, chicken thigh fillet, fennel seeds, black, chili"
+        },
+        {
+            "name": "Methi Chicken",
+            "price": "$12.99",
+            "description": "Fresh methi leaves, yogurt, garam masala powder, mustard and chicken"
+        },
+        {
+            "name": "Chicken Handi",
+            "price": "$11.99",
+            "description": "Bone in Chicken, heavy cream, garam masala powder cooked in clay pot"
+        },
+        {
+            "name": "Butter Chicken Combo",
+            "price": "$14.99",
+            "description": "Tomato sauce, skinless chicken breasts, low fat, garam masala. Served with choice of 2 sides"
+        },
+        {
+            "name": "Butter Chicken",
+            "price": "$11.99",
+            "description": "Tomato sauce, skinless chicken breasts, low fat, garam masala"
+        },
+        {
+            "name": "Chicken Khorma",
+            "price": "$11.99",
+            "description": "Chicken braised in a rich creamy aromatic flavored sauce with yogurt,ground almond & cashew"
+        },
+        {
+            "name": "Kadhai Chicken Combo",
+            "price": "$14.99",
+            "description": "Chicken, bell peppers, garam masala, cashew nuts, kasuri meethi. Served with choice of 2 sides"
+        },
+        {
+            "name": "Kadhai Chicken",
+            "price": "$11.99",
+            "description": "Chicken, bell peppers, garam masala, cashew nuts, kasuri meethi"
+        },
+        {
+            "name": "Chicken Tikka Masala",
+            "price": "$11.99",
+            "description": "Marinated boneless chicken roasted in tandoor and cooked with spicy tomato cream sauce"
+        },
+        {
+            "name": "Chicken Haleem",
+            "price": "$12.99",
+            "description": "Chicken, lentils, and grains slow cooked then garnished with fried onions, fresh mint, green chilies, and fresh lemon"
+        },
+        {
+            "name": "Chicken Tikka Masala Combo",
+            "price": "$14.99",
+            "description": "Marinated boneless chicken roasted in tandoor and cooked with spicy tomato cream sauce. Served with choice of 2 sides"
+        },
+        {
+            "name": "Chicken Khorma Combo",
+            "price": "$14.99",
+            "description": "Chicken braised in a rich creamy aromatic flavored sauce with yogurt,ground almond & cashew. Served with choice of 2 sides"
+        },
+        {
+            "name": "Chicken 65",
+            "price": "$11.99",
+            "description": "Chicken, chili sauce, corn flour, green bell pepper, red bell"
+        },
+        {
+            "name": "",
+            "price": "$11.99",
+            "description": ""
+        }
+    ],
+    "Naan/Bread": [
+        {
+            "name": "Butter Naan/Plain Naan",
+            "price": "$1.99"
+        },
+        {
+            "name": "Garlic Naan",
+            "price": "$2.49"
+        },
+        {
+            "name": "Chili Naan",
+            "price": "$2.99"
+        },
+        {
+            "name": "Peshawari Naan",
+            "price": "$3.99"
+        },
+        {
+            "name": "Rumali Roti",
+            "price": "$3.99"
+        }
+    ],
+    "Desserts": [
+        {
+            "name": "Kheer/Rice Pudding",
+            "price": "$4.99"
+        },
+        {
+            "name": "Double Ka Meetha",
+            "price": "$4.99"
+        },
+        {
+            "name": "Carrot Halwa",
+            "price": "$5.99"
+        },
+        {
+            "name": "Gulab Jamun",
+            "price": "$3.99"
+        },
+        {
+            "name": "Qubani Ka Meetha",
+            "price": "$4.99"
+        }
+    ],
+    "Drinks": [
+        {
+            "name": "Chai (Hot Tea)",
+            "price": "$1.99"
+        },
+        {
+            "name": "Mango Lassi ",
+            "price": "$3.49"
+        },
+        {
+            "name": "Plain Lassi (Sweet)",
+            "price": "$2.49"
+        }
+    ]
+}

@@ -2,7 +2,7 @@
 $(document).ready(function () {
   $.ajax({
     type: "GET",
-    url: "http://api.openweathermap.org/data/2.5/weather",
+    url: "https://api.openweathermap.org/data/2.5/weather",
     data: {
       "q": "Charlotte,USA",
       "appid": "5bfa3c2f5b055da3b38fae69e7159ff9",
