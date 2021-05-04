@@ -9,19 +9,27 @@ $(document).ready(function () {
     },
     dataType: "json",
     success: function (data) {
+      // Code to display menu data in Accordion
       var html = "";
       $.each(data, function (key, value) {
-        html += '<h3 class="menu_head">' + key + '</h3>';
+        html += '<h3 class="menu_head">' + key + "</h3>";
         html += '<div class="app">';
         for (i = 0; i < value.length; i++) {
-          html += '<p> <strong>' + value[i].name + '</strong> --- <em>' + value[i].price + '</em></br>' +
-            '<small>' + value[i].description + '</small>' +
-            '</p>';
-        };
-        html += '</div>';
+          html +=
+            "<p> <strong>" +
+            value[i].name +
+            "</strong> --- <em>" +
+            value[i].price +
+            "</em></br>" +
+            "<small>" +
+            value[i].description +
+            "</small>" +
+            "</p>";
+        }
+        html += "</div>";
       });
       $("#accordion").html(html);
-      // Initializing jQuery Accordion widget with certain options 
+      // Initializing jQuery Accordion widget with certain options
       $("#accordion").accordion({
         heightStyle: "content",
         collapsible: true,
@@ -35,7 +43,7 @@ window.onload = function () {
   var x = document.getElementById("test");
   x.addEventListener("mouseover", myFunction);
   x.addEventListener("mouseout", newFunction);
-}
+};
 
 // This function is implemented when the mouse is over the navigation links
 function myFunction(event) {
