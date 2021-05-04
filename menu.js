@@ -1,8 +1,32 @@
 $(document).ready(function () {
-  // Initializing jQuery Accordion widget with certain options 
-  $("#accordion").accordion({
-    heightStyle: "content",
-    collapsible: true,
+  // Ajax request to get data from a JSON file
+  $.ajax({
+    type: "get",
+    url: "menu.json",
+    timeout: 10000,
+    error: function (xhr, status, error) {
+      alert("Error: " + xhr.status + " - " + error);
+    },
+    dataType: "json",
+    success: function (data) {
+      var html = "";
+      $.each(data, function (key, value) {
+        html += '<h3 class="menu_head">' + key + '</h3>';
+        html += '<div class="app">';
+        for (i = 0; i < value.length; i++) {
+          html += '<p> <strong>' + value[i].name + '</strong> --- <em>' + value[i].price + '</em></br>' +
+            '<small>' + value[i].description + '</small>' +
+            '</p>';
+        };
+        html += '</div>';
+      });
+      $("#accordion").html(html);
+      // Initializing jQuery Accordion widget with certain options 
+      $("#accordion").accordion({
+        heightStyle: "content",
+        collapsible: true,
+      });
+    },
   });
 });
 

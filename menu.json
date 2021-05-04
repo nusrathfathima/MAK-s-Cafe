@@ -530,59 +530,72 @@
     "Naan/Bread": [
         {
             "name": "Butter Naan/Plain Naan",
-            "price": "$1.99"
+            "price": "$1.99",
+            "description": ""
         },
         {
             "name": "Garlic Naan",
-            "price": "$2.49"
+            "price": "$2.49",
+            "description": ""
         },
         {
             "name": "Chili Naan",
-            "price": "$2.99"
+            "price": "$2.99",
+            "description": ""
         },
         {
             "name": "Peshawari Naan",
-            "price": "$3.99"
+            "price": "$3.99",
+            "description": ""
         },
         {
             "name": "Rumali Roti",
-            "price": "$3.99"
+            "price": "$3.99",
+            "description": ""
         }
     ],
     "Desserts": [
         {
             "name": "Kheer/Rice Pudding",
-            "price": "$4.99"
+            "price": "$4.99",
+            "description": ""
         },
         {
             "name": "Double Ka Meetha",
-            "price": "$4.99"
+            "price": "$4.99",
+            "description": ""
         },
         {
             "name": "Carrot Halwa",
-            "price": "$5.99"
+            "price": "$5.99",
+            "description": ""
         },
         {
             "name": "Gulab Jamun",
-            "price": "$3.99"
+            "price": "$3.99",
+            "description": ""
         },
         {
             "name": "Qubani Ka Meetha",
-            "price": "$4.99"
+            "price": "$4.99",
+            "description": ""
         }
     ],
     "Drinks": [
         {
             "name": "Chai (Hot Tea)",
-            "price": "$1.99"
+            "price": "$1.99",
+            "description": ""
         },
         {
             "name": "Mango Lassi ",
-            "price": "$3.49"
+            "price": "$3.49",
+            "description": ""
         },
         {
             "name": "Plain Lassi (Sweet)",
-            "price": "$2.49"
+            "price": "$2.49",
+            "description": ""
         }
     ]
 }
